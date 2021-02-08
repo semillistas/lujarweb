@@ -6,6 +6,14 @@ backend:
 media_folder: public/img
 public_folder: img
 collections:
+  - name: "team_members"
+    label: "Team"
+    create: true
+    folder: "team_members"
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Summary", name: "summary", widget: "string" }
+      - { label: "Featured Image", name: "thumbnail", widget: "image" }
   - name: "pages"
     label: "Pages"
     files:
