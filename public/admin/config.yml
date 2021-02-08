@@ -1,7 +1,7 @@
 backend:
   name: github
   branch: master
-  repo: semillistas/jujarweb
+  repo: semillistas/lujarweb
   base_url: https://gleaming-ethereal-slug.glitch.me
 media_folder: public/img
 public_folder: img
