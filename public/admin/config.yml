@@ -7,7 +7,7 @@ media_folder: public/img
 public_folder: img
 collections:
   - name: "team_members"
-    label: "Team"
+    label: "Team member"
     create: true
     folder: "team_members"
     fields:
