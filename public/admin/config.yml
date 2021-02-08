@@ -1,6 +1,8 @@
 backend:
-  name: git-gateway
+  name: github
   branch: master
+  repo: semillistas/jujarweb
+  base_url: https://gleaming-ethereal-slug.glitch.me
 media_folder: public/img
 public_folder: img
 collections:
