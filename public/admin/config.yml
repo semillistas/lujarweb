@@ -5,15 +5,19 @@ backend:
   base_url: https://gleaming-ethereal-slug.glitch.me
 media_folder: public/img
 public_folder: img
+i18n:
+  structure: multiple_files
+  locales: [en, es]
 collections:
   - name: "team_members"
     label: "Team member"
     create: true
+    i18n: true
     folder: "team_members"
     fields:
-      - { label: "Name", name: "name", widget: "string" }
-      - { label: "Summary", name: "summary", widget: "string" }
-      - { label: "Featured Image", name: "thumbnail", widget: "image" }
+      - { label: "Name", name: "name", widget: "string", i18n: duplicate }
+      - { label: "Summary", name: "summary", widget: "string", i18n: true }
+      - { label: "Featured Image", name: "thumbnail", widget: "image", i18n: duplicate }
   - name: "pages"
     label: "Pages"
     files:
