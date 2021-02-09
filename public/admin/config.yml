@@ -13,7 +13,7 @@ collections:
     label: "Team member"
     create: true
     i18n: true
-    folder: "team_members"
+    folder: "content/team_members"
     fields:
       - { label: "Name", name: "name", widget: "string", i18n: duplicate }
       - { label: "Summary", name: "summary", widget: "string", i18n: true }
